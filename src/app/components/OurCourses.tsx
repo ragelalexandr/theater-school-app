@@ -1,16 +1,16 @@
-// Файл: src/components/WhyUsBlock.tsx
+// Файл: src/components/OurCoursesBlock.tsx
 
 import React from 'react';
 
-const WhyUsBlock = () => {
+const OurCoursesBlock = () => {
   return (
     <div
       style={{
         width: 1920,
-        height: 891,
-        background: '#000000',
+        height: 1370,
+        background: '#FFFDD0',
         position: 'absolute',
-        top: 4499,
+        top: 5390,
       }}
     >
       {/* Добавьте контент, если нужно */}
@@ -18,4 +18,4 @@ const WhyUsBlock = () => {
   );
 };
 
-export default WhyUsBlock;
+export default OurCoursesBlock;

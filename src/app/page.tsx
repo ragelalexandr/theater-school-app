@@ -1,12 +1,15 @@
-import HeaderBlock from './components/HeaderBlock';
-import AboutBlock from './components/AboutBlock';
-import ProcessBlock from './components/ProcessBlock';
-import TeamBlock from './components/TeamBlock';
-import TeachersBlock from './components/TeachersBlock'
-import WhyUsBlock from './components/WhyUsBlock'
-import OurCoursesBlock from './components/OurCoursesBlock'
-import TeachersBlock from './components/TeachersBlock'
-import TeachersBlock from './components/TeachersBlock'
+import HeaderBlock from './components/TopHeader';
+import AboutBlock from './components/AboutUs';
+import ProcessBlock from './components/OurCreativeProcess';
+import TeamBlock from './components/OurTeam';
+import OurTeachers from './components/OurTeachers';
+import WhyUsBlock from './components/WhyUs';
+import OurCoursesBlock from './components/OurCourses';
+import StudentParticipation from './components/StudentParticipation';
+import TheatricalProductions from './components/TheatricalProductions';
+import OurTour from './components/OurTour';
+import OurContacts from './components/OurContacts';
+
 
 export default function Home() {
   return (
@@ -15,11 +18,13 @@ export default function Home() {
       <AboutBlock />
       <ProcessBlock />
       <TeamBlock />
-      <TeachersBlock />
+      <OurTeachers />
       <WhyUsBlock />
       <OurCoursesBlock />
-      <TeachersBlock />
-      <TeachersBlock />
+      <StudentParticipation />
+      <TheatricalProductions />
+      <OurTour />
+      <OurContacts />
     </main>
   );
 }
