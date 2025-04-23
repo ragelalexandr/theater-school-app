@@ -1,4 +1,5 @@
-import HeaderBlock from './components/TopHeader';
+// src/app/page.tsxbr
+import HeaderMain from './components/HeaderMain';
 import AboutBlock from './components/AboutUs';
 import ProcessBlock from './components/OurCreativeProcess';
 import TeamBlock from './components/OurTeam';
@@ -11,10 +12,11 @@ import OurTour from './components/OurTour';
 import OurContacts from './components/OurContacts';
 
 
+
 export default function Home() {
   return (
     <main>
-      <HeaderBlock />
+      <HeaderMain />
       <AboutBlock />
       <ProcessBlock />
       <TeamBlock />
@@ -28,3 +30,5 @@ export default function Home() {
     </main>
   );
 }
+
+

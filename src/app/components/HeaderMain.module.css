@@ -1,0 +1,100 @@
+.container {
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.headerMain {
+    position: relative;
+}
+
+.photoBlock {
+    width: 1722px;
+    height: 503px;
+    position: absolute;
+    top: 147px;
+    left: 98px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo1 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+}
+
+.photo2 {
+    width: 320px;
+    height: 500px;
+    position: absolute;
+    top: 3px;
+    left: 532px;
+}
+
+.photo3 {
+    width: 310px;
+    height: 235px;
+    position: absolute;
+    top: 3px;
+    left: 882px;
+}
+
+.photo4 {
+    width: 310px;
+    height: 235px;
+    position: absolute;
+    top: 268px;
+    left: 882px;
+}
+
+.photo5 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 3px;
+    left: 1222px;
+}
+
+/* Блок заголовка */
+.titleBlock {
+    width: 1102px;
+    height: 112px;
+    position: absolute;
+    top: 714px;
+    left: 91px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* Заголовок */
+.mainTitle {
+    width: 1098px;
+    height: 65px;
+    position: absolute;
+    top: 9px;
+    left: 4px;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Описание */
+.description {
+    width: 944px;
+    height: 24px;
+    position: absolute;
+    top: 88px;
+    left: 4px;
+    font-size: 18px;
+    color: white;
+}

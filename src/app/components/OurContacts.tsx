@@ -6,10 +6,11 @@ const StudentParticipation = () => {
   return (
     <div
       style={{
-        width: 1920,
+        width: '100%',
         height: 1000,
         background: '#000000',
-        position: 'absolute',
+        position: 'relative', // Для вложенных элементов
+        overflow: 'hidden', // Устраняет выход элементов за границы блока
         top: 9459,
       }}
     >

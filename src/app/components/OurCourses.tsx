@@ -1,4 +1,4 @@
-// Файл: src/components/OurCoursesBlock.tsx
+// src/components/OurCoursesBlock.tsx
 
 import React from 'react';
 
@@ -6,11 +6,12 @@ const OurCoursesBlock = () => {
   return (
     <div
       style={{
-        width: 1920,
-        height: 1370,
+        width: '1920px',
+        height: '1370',
         background: '#FFFDD0',
-        position: 'absolute',
-        top: 5390,
+        position: 'relative', // Для вложенных элементов
+        overflow: 'hidden', // Устраняет выход элементов за границы блока
+        top: '5390',
       }}
     >
       {/* Добавьте контент, если нужно */}

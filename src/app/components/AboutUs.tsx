@@ -9,7 +9,8 @@ const AboutBlock = () => {
         width: '1920px',
         height: '900px',
         backgroundColor: '#FFFDD0',
-        position: 'absolute',
+        position: 'relative', // Для вложенных элементов
+        overflow: 'hidden', // Устраняет выход элементов за границы блока
         top: '900px',
       }}
     >

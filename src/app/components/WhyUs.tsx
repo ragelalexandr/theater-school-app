@@ -6,7 +6,7 @@ const WhyUsBlock = () => {
   return (
     <div
       style={{
-        width: 1920,
+        width: '1920px',
         height: 1370,
         background: '#FFFDD0',
         position: 'absolute',

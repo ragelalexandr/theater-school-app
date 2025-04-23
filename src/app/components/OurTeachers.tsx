@@ -6,10 +6,11 @@ const TeachersBlock = () => {
   return (
     <div
       style={{
-        width: 1920,
+        width: '1920px',
         height: 900,
         background: '#FFFDD0',
-        position: 'absolute',
+        position: 'relative', // Для вложенных элементов
+        overflow: 'hidden', // Устраняет выход элементов за границы блока
         top: 3599,
       }}
     >

@@ -9,7 +9,8 @@ const TeamBlock = () => {
         width: '1920px',
         height: '900px',
         backgroundColor: '#B81E1E', // Красный фон
-        position: 'absolute',
+        position: 'relative', // Для вложенных элементов
+        overflow: 'hidden', // Устраняет выход элементов за границы блока
         top: '2700px',
       }}
     >

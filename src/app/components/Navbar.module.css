@@ -1,0 +1,41 @@
+.navbar {
+  width: 1729px;
+  height: 77px;
+  position: absolute;
+  top: 32px;
+  left: 95px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  width: 154px;
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+  color: darkslategray;
+}
